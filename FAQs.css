@@ -133,13 +133,15 @@ body {
   position: relative;
   width: 100%;
   min-height: 80vh;
-  /* padding: 1rem; */
-  padding: 0 30px;
+  padding: 0 40px;
   background-color: #fafafa;
-  /* overflow: hidden; */
   display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+  /* overflow: hidden; */
   /* align-items: center; */
-  justify-content: center;
+  /* padding: 1rem; */
 }
 
 .form {
@@ -198,11 +200,14 @@ form {
 }
 
 .title {
-  color: rgb(22, 61, 77);
+  color: rgb(24, 79, 100);
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 1;
-  padding-top: 100px;
+  position: sticky;
+  top: 150px;
+  text-decoration: underline;
+  /* padding-top: 170px; */
   /* margin-top: 700px; */
   /* margin-bottom: 0.7rem; */
 }
@@ -347,9 +352,14 @@ textarea.input {
 }
 
 .answer {
+  /* color: royalblue; */
   font-size: 1.2rem;
   line-height: 1.8;
   display: none;
+}
+.answer p {
+  color: royalblue;
+  font-weight: 500;
 }
 
 .show-text .answer {
@@ -362,6 +372,19 @@ textarea.input {
 
 .show-text .down-icon {
   display: none;
+}
+.content-accordion {
+  display: flex;
+  margin: 0px 25%;
+  /* background-color: rgb(233, 233, 233); */
+  /* height: 320px; */
+}
+.divide-1 {
+  margin: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* background-color: #088178; */
 }
 
 @media screen and (min-width: 992px) {
