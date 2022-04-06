@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+.pl_1 {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    border-radius: 20px;
+    background: #fefffe;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 30px;
+}
+
+#header {
+    position: relative !important;
+}
+
+.pl_1:hover {
+    border: 1px solid #08fe0c;
+    background: #d0fbd5;
+}
+
+.card {
+    background: transparent;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    height: 360px;
+    width: 700px;
+    border: 1px solid rgb(12, 229, 12);
+    overflow: auto;
+}
+
+.card-title {
+    letter-spacing: 0.6px;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #0070f3;
+
+}
+
+button {
+    padding: 8px 26px;
+    margin-top: 7px;
+    border-radius: 20px;
+    color: #000;
+    border: 1px solid rgb(18, 253, 100);
+    outline: none;
+    transition: all 0.3s ease;
+
+    background: linear-gradient(to right, rgb(81, 250, 87), #14fb59);
+
+}
+
+button:hover {
+    transition: all 0.3s linear;
+    /* color: #e7f300; */
+    background: #3693fd;
+    border: 1px solid rgb(105, 48, 250);
+}
+
+.card-text {
+    font-size: 1.2rem;
+}
+
+.img_1 img {
+    padding: 3px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+}
+
+.flep {
+    display: flex;
+    flex-wrap: wrap;
+}
+
